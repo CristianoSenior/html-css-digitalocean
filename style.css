@@ -1,0 +1,101 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'sailec';
+}
+
+.container::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* regole di colonne */
+
+[class*="col-"] {
+  float: left;
+}
+
+
+
+/* NAVBAR */
+
+
+/* SIZE LOGO */
+
+
+/* NAVBAR  -------------> */
+/* regole NAVBAR */
+.colorenav{
+  background-color: white;
+}
+/* Logo */
+.logo{
+float: left;
+padding-left: 20px;
+}
+/* size logo */
+.logodigital{
+width: 200px;
+float: left;
+padding-top: 10px;
+padding-bottom: 10px;
+
+}
+/* Item centrali product */
+.padelnav{
+padding-left:50px;
+padding-right: 10px;
+}
+/* Item centrali + lato destro */
+.topspazio{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* --NAVBAR fine------> */
+
+/* JUMBOTRON */
+/* Sinistra ( titolo + paragrafo) */
+
+#jumbo{
+  background-image: url("img/bg-home.jpg");
+  /* height: 500px; */
+  margin-top: 50px;
+}
+
+.riqformtop{
+  border: 2px solid black;
+}
+
+
+/* SEZIONE TITOLO + IMM + LINK */
+ .backgrey{
+   background-color: #f3f5f9;
+ }
+ /* Img + testo centrati */
+ .textcentro{
+   text-align: center;
+ }
+ /* img's size */
+ .imgsize{
+  max-width: 100%;
+  padding-left: 2%;
+ }
+/* DEPLOY AND SCALE SEAMLESSLY */
+ /* Lista */
+ .lista{
+   list-style-type: none;
+   vertical-align: center;
+   padding-left: 10px;
+ }
+/* Barretta kinder sinistra */
+ .bordolista{
+   border-left: 2px solid black;
+ }
+
+/* SERVICE YOUR CUSTOMERS */
+/* Colore sfondo section */
+.blueback{
+  background-color: #6666ff;
+}
