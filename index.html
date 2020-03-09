@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Oxanium&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/c2aa3ad4cf.js" crossorigin="anonymous"></script>
     <title></title>
   </head>
@@ -30,7 +31,7 @@
             <a href="#">DOCS</a>
             <a href="#">SUPPORT</a>
             <a href="#">LOGIN</a>
-            <a href="#">SIGN UP</a>
+            <a class="signup"href="#">SIGN UP</a>
           </div>
         </div>
       </nav>
@@ -39,509 +40,542 @@
     <main>
 <!-- JUMBOTRON --------------------------->
       <section id="jumbo">
-        <div class="container">
+        <div class="container latspac">
 <!-- Sezione sinistra -->
 <!-- titolo ----------------------->
           <div class="row">
             <div class="col-lg-6">
-              <h1>
-                The simplest cloud platform for developers e teams
+              <h1 class="sizetitjum"><strong>The simplest cloud
+                platform for <br>developers e teams</strong>
               </h1>
-              <p>
-                We make it simple to launch in the cloud
-                and scale up as you grow – with an intuitive
-                control panel, predictable pricing, team accounts,
-                and more.
+              <p class="piripì">
+                Deploy ,manage , and scale cloud
+                application fast and more efficently
+                on DigitalOcean.
+                We make managing infrastructure
+                easy for teams and business,
+                whether you're running one
+                virtual machine or ten thousand.
               </p>
             </div>
 
 
 <!-- Sezione destra --------------->
-          <!-- <div class="container"> -->
-            <!-- <div class="row"> -->
-              <div class="col-lg-6">
-                <h1>
-                 Deploy your app in second.
-                </h1>
-                <h1>
-                 Get started now.
-                </h1>
+            <div id='formrules' class="col-lg-6 backgrey">
+              <div >
+                <h3 id="titoloform"> <strong>Deploy your app
+                   in second.</strong>
+                </h3>
+              </div>
+              <div >
+                <h3 id="titoloform2">
+                 <strong>Get started now.</strong>
+               </h3>
+              </div>
+              <form>
+                <div class="form-group larghspazi">
+                  <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+                </div>
+                <div class="form-group larghspazi">
+                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                </div>
+                <div class="">
+                  <button type="submit" class="larghspazidue btn btn-default">Create your account</button>
+                </div>
+                <div class="">
+                  <button type="submit" class="larghspazidue btn btn-default">Sign up with google</button>
+                </div>
+                <div class="">
+                  <p>
+                    Terms and condition
+                  </p>
+                </div>
 
-            <!-- </div> -->
-            <!-- <div class="row"> -->
-              <!-- <div class="col-lg-6"> -->
-                <i class="riqformtop">
-                  Email
-                </i>
-              <!-- </div> -->
-            <!-- </div> -->
-            <!-- <div class="row"> -->
-              <!-- <div class="col-lg-6"> -->
-                <i class="riqformtop">
-                  Password
-                </i>
-              <!-- </div> -->
-            <!-- </div> -->
-            <!-- <div class="row"> -->
-              <!-- <div class="col-lg-6"> -->
-                <i class="riqformtop">
-                  Create your account
-                </i>
-              <!-- </div> -->
-            <!-- </div> -->
-            <!-- <div class="row"> -->
-              <!-- <div class="col-lg-6"> -->
-                <i class="riqformtop">
-                  Sign up with google
-                </i>
-              <!-- </div> -->
-            <!-- </div> -->
-            <!-- <div class="row"> -->
-              <!-- <div class="col-lg-6"> -->
-                <i class="riqformtop">
-                  Terms and condition
-                </i>
-              <!-- </div> -->
-            <!-- </div> -->
-            </div>
+              </form>
             </div>
           </div>
-          <!-- </div> -->
+        </div>
       </section>
 
 <!-- SEZIONE TITOLO + IMM + LINK -->
-      <section class="backgrey">
-        <div class="container textcentro">
+    <section class="backgrey">
+      <div class="container textcentro latspac">
 <!-- titolo ----------------------->
-          <div class="row">
-            <div class="col-lg-12">
-              <h4>
-                INNOVATIVE BUSINESS TRUST DIGITALOCEAN
-              </h4>
-            </div>
+        <div class="row">
+          <div class=" col-lg-12">
+            <h4 class="titbrand">
+              INNOVATIVE BUSINESS TRUST DIGITALOCEAN
+            </h4>
           </div>
+        </div>
 <!-- immagine 1 ----------------->
-          <div class="row">
-            <div class="imgsize col-lg-2">
-              <img src="img/docker.png" alt="">
-            </div>
-            <div class="imgsize col-lg-2">
-              <img src="img/gitlab.png" alt="">
-            </div>
-            <div class="imgsize col-lg-2">
-              <img src="img/hashicorp.png" alt="">
-            </div>
-            <div class="imgsize col-lg-2">
-              <img src="img/slack.png" alt="">
-            </div>
-            <div class="imgsize col-lg-2">
-              <img src="img/wework.png" alt="">
-            </div>
-            <div class="imgsize col-lg-2">
-              <img src="img/splunk.png" alt="">
-            </div>
+        <div class="row">
+          <div class="col-lg-2">
+            <img class=""src="img/docker.png" alt="">
           </div>
+          <div class="fox col-lg-2">
+            <img src="img/gitlab.png" alt="">
+          </div>
+          <div class="col-lg-2">
+            <img src="img/hashicorp.png" alt="">
+          </div>
+          <div class="col-lg-2">
+            <img class="slacklogo"src="img/slack.png" alt="">
+          </div>
+          <div class="col-lg-2">
+            <img src="img/wework.png" alt="">
+          </div>
+          <div class="col-lg-2">
+            <img class="splunklogo"src="img/splunk.png" alt="">
+          </div>
+        </div>
 <!-- link -->
-          <div class="row">
-            <div class="col-lg-12">
+        <div class="row">
+          <div class=" col-lg-12">
+            <div class="customerslink">
               <a href="#">View customers stories></a>
             </div>
+
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
 <!-- Deploy and scale seamlessly --------------------->
-      <section>
-        <div class="container">
+    <section>
+      <div class="container latspac">
 <!--Titolo+sottotitolo --------------->
-          <div class="row">
-            <div class="textcentro col-lg-12">
-              <h1>
-                Deploy and scale seamlessly
-              </h1>
-              <h4>
+        <div class="row">
+          <div class="deloypar textcentro col-lg-12">
+            <h4 class="titolodeloy">
+            <strong> Deploy and scale seamlessly</strong>
+          </h4>
+            <p class="sotttit">
+              <strong>
                 Our optimized configuration process saves your team
                 time when running and scaling distributed applications,
-                AI & machine learning workloads, hosted services,
+                AI <br> & machine learning workloads, hosted services,
                 client websites,
                 or CI/CD environments.
-              </h4>
-            </div>
+
+              </strong>
+            </p>
+          </div>
 <!--Lista elementi laterali sinistra  ------------>
-            <div class="col-lg-2">
-              <div class="bordolista">
-                <ul class="lista">
-                  <li>
-                    Deploy
-                  </li>
-                  <li>
-                    Manage
-                  </li>
-                  <li>
-                  Secure
-                  </li>
-                  <li>
-                    Scale
-                  </li>
-                  <li>
-                    Monitor
-                  </li>
-                </ul>
-              </div>
+          <div class="col-lg-offset-1 col-lg-2">
+            <div class="bordolista">
+              <ul class="lista">
+                <li>
+                  Deploy
+                </li>
+                <li>
+                  Manage
+                </li>
+                <li>
+                Secure
+                </li>
+                <li>
+                  Scale
+                </li>
+                <li>
+                  Monitor
+                </li>
+              </ul>
             </div>
+          </div>
 <!-- Primo blocco prima foto+titolo+paragrafo --------->
-            <div class="col-lg-5">
-              <div>
-                <img src="img/ico-1.png" alt="">
-              </div>
-              <div class="">
-                <h3>
-                  Kubernetes in minutes
-                </h3>
-                <p>
-                  Spin up a managed Kubernetes cluster
-                   in just a few clicks.
-                   Simply specify the size and location of your
-                   worker nodes.
-                </p>
-              </div>
-<!-- Primo blocco seconda foto+titolo+paragrafo ------>
-              <div>
-                <img src="img/ico-1.png" alt="">
-              </div>
-              <div class="">
-                <h3>
-                  Kubernetes in minutes
-                </h3>
-                <p>
-                  Spin up a managed Kubernetes cluster
-                   in just a few clicks.
-                   Simply specify the size and location of your
-                   worker nodes.
-                </p>
-              </div>
+          <div class="col-lg-offset-1 col-lg-4">
+            <div>
+              <img src="img/ico-1.png" alt="">
             </div>
+            <div class="">
+              <h6 class="parminuno">
+                <strong>
+                 Cluster Deployment
+                </strong>
+              </h6>
+              <p class="paragrafomini ">
+                Provision multiple droplets (virtual <br>
+                machine) in seconds with our control <br>
+                panel,CLI,or directly agains our API.
+              </p>
+            </div>
+<!-- Primo blocco seconda foto+titolo+paragrafo ------>
+            <div>
+              <img src="img/ico-2.png" alt="">
+            </div>
+            <div class="">
+              <h6>
+                <strong>
+                One-click apps
+                </strong>
+              </h6>
+              <p class="paragrafomini">
+                Skipp the install and configuration
+                proces <br> swith pre-built open source
+                 images <br> supporting Rails,Cassandra,
+                 Docker and more.
+              </p>
+            </div>
+          </div>
 <!-- Secondo blocco prima foto+titolo+paragrafo  -------->
-            <div class="col-lg-5">
-              <div>
-                <img src="img/ico-1.png" alt="">
-              </div>
-              <div class="">
-                <h3>
-                  Kubernetes in minutes
-                </h3>
-                <p>
-                  Spin up a managed Kubernetes cluster
-                   in just a few clicks.
-                   Simply specify the size and location of your
-                   worker nodes.
-                </p>
-              </div>
+          <div class="col-lg-4">
+            <div>
+              <img src="img/ico-3.png" alt="">
+            </div>
+            <div class="">
+              <h6>
+                <strong>
+                  Optimized computer types
+                </strong>
+              </h6>
+              <p class="paragrafomini">
+                Get the computer resources need
+                with <br> standard or optimized droplets.
+              </p>
+            </div>
 <!-- Secondo blocco seconda foto+titolo+paragrafo  -------->
-              <div>
-                <img src="img/ico-1.png" alt="">
-              </div>
-              <div class="">
-                <h3>
-                  Kubernetes in minutes
-                </h3>
-                <p>
-                  Spin up a managed Kubernetes cluster
-                   in just a few clicks.
-                   Simply specify the size and location of your
-                   worker nodes.
-                </p>
-              </div>
+            <div class="parminquattro">
+              <img src="img/ico-4.png" alt="">
+            </div>
+            <div class="">
+              <h6>
+                <strong>
+                  Global aviability
+                </strong>
+              </h6>
+              <p class="paragrafomini">
+                Deploy to any of our data center regions <br>
+                around the world.
+              </p>
             </div>
           </div>
         </div>
-      </section>
-      <!-- DESIGNERS FOR DEVELOPERS -->
-      <section class="backgrey">
-        <div class="container">
-          <div class="row">
-            <div class="textcentro col-lg-12">
-              <h2>
+      </div>
+    </section>
+    <!-- DESIGNERS FOR DEVELOPERS -->
+    <section class="backgrey latspac">
+      <div class="container">
+        <div class="row">
+          <div class="textcentro col-lg-12">
+            <h2>
+              <strong>
                 Designed for developers
-              </h2>
-              <h4>
+              </strong>
+            </h2>
+            <h4 class="spaziosott">
+              <strong>
                 Build more and spend less time managing
                 your infrastructure
                  with our easy-to-use control panel and API.
-              </h4>
-              <img src="img/kubernetes.jpg" alt="">
-              <h6>
-                Create computer server in 55 seconds ore less
-              </h6>
-            </div>
+              </strong>
+            </h4>
+            <img src="img/kubernetes.jpg" alt="">
+            <h6 class="sottoimgdesign">
+              <strong>
+               Create computer server in 55 seconds ore less
+              </strong>
+            </h6>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
 <!-- THE FUTURE YOUR BUSINESS NEEDS --------------->
-      <section>
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-12">
-              <div class="">
-                <h2>
-                  THE FUTURE YOUR BUSINESS NEEDS
-                </h2>
-              </div>
-              <div class="col-lg-4">
-                <img src="img/ico-6.png" alt="">
-                <h3>
-                  PREDICTABLE PRICING
-                </h3>
-                <p>
+    <section>
+      <div class="container dueditasotto">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="textcentro thefuture">
+              <h2>
+                <strong>
+                  The future your business needs
+                </strong>
+              </h2>
+            </div>
+            <div class="col-lg-offset-2 col-lg-3">
+              <img src="img/ico-6.png" alt="">
+              <h6>
+                <strong>
+                  Predicatble pricing
+                </strong>
+              </h6>
+              <p class="paragrafomini">
+                <strong>
                   Leave complex pricing structures behind.
                   Always know what
                   you’ll pay per month
                   with a flat, industry-leading
                   pricing structure.
-                </p>
-                <h6>
-                  Pricing >
-                </h6>
-              </div>
-              <div class="col-lg-4">
-                <img src="img/ico-6.png" alt="">
-                <h3>
-                  PREDICTABLE PRICING
-                </h3>
-                <p>
+                </strong>
+              </p>
+              <strong>
+                <a class="support"href="#">Support></a>
+              </strong>
+            </div>
+            <div class="col-lg-3">
+              <img src="img/ico-7.png" alt="">
+              <h6>
+                <strong>
+                  World-class service
+                </strong>
+              </h6>
+              <p class="paragrafomini">
+                <strong>
+                  Free round-the-clock technical
+                  support for alla customers. You'll
+                  feel the love.
+                </strong>
+              </p>
+              <strong>
+                <a class="support"href="#">Pricing></a>
+              </strong>
+            </div>
+            <div class="col-lg-3">
+              <img src="img/ico-5.png" alt="">
+              <h6>
+                <strong>
+                    Reliable platform
+                </strong>
+              </h6>
+              <p class="paragrafomini">
+                <strong>
                   Leave complex pricing structures behind.
                   Always know what
                   you’ll pay per month
                   with a flat, industry-leading
                   pricing structure.
-                </p>
-                <h6>
-                  Pricing >
-                </h6>
-              </div>
-              <div class="col-lg-4">
-                <img src="img/ico-6.png" alt="">
-                <h3>
-                  PREDICTABLE PRICING
-                </h3>
-                <p>
-                  Leave complex pricing structures behind.
-                  Always know what
-                  you’ll pay per month
-                  with a flat, industry-leading
-                  pricing structure.
-                </p>
-                <h6>
-                  Pricing >
-                </h6>
-              </div>
+                </strong>
+              </p>
+              <strong>
+                <a class="support"href="#">Security></a>
+              </strong>
             </div>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
 <!-- SERVICE YOUR CUSTOMERS ------------>
-      <section class="blueback">
-        <div class="container">
-          <div class="row">
-<!-- Tabella lato sinistro  ------------>
-            <div class="col-lg-6">
-              <table>
-                <tr>
-                  AMS2
-                </tr>
-                <tr>
-                  NETHERLAND
-                </tr>
-                <tr>
-                  TEST SPEED
-                </tr>
-              </table>
-              <table>
-                <tr>
-                  AMS2
-                </tr>
-                <tr>
-                  NETHERLAND
-                </tr>
-                <tr>
-                  TEST SPEED
-                </tr>
-              </table>
-              <table>
-                <tr>
-                  AMS2
-                </tr>
-                <tr>
-                  NETHERLAND
-                </tr>
-                <tr>
-                  TEST SPEED
-                </tr>
-              </table>
-              <table>
-                <tr>
-                  AMS2
-                </tr>
-                <tr>
-                  NETHERLAND
-                </tr>
-                <tr>
-                  TEST SPEED
-                </tr>
-              </table>
-              <table>
-                <tr>
-                  AMS2
-                </tr>
-                <tr>
-                  NETHERLAND
-                </tr>
-                <tr>
-                  TEST SPEED
-                </tr>
-              </table>
-              <table>
-                <tr>
-                  AMS2
-                </tr>
-                <tr>
-                  NETHERLAND
-                </tr>
-                <tr>
-                  TEST SPEED
-                </tr>
-              </table>
-            </div>
-            <div class="col-lg-6">
-              <table>
-                <tr>
-                  AMS2
-                </tr>
-                <tr>
-                  NETHERLAND
-                </tr>
-                <tr>
-                  TEST SPEED
-                </tr>
-              </table>
-              <table>
-                <tr>
-                  AMS2
-                </tr>
-                <tr>
-                  NETHERLAND
-                </tr>
-                <tr>
-                  TEST SPEED
-                </tr>
-              </table>
-              <table>
-                <tr>
-                  AMS2
-                </tr>
-                <tr>
-                  NETHERLAND
-                </tr>
-                <tr>
-                  TEST SPEED
-                </tr>
-              </table>
-              <table>
-                <tr>
-                  AMS2
-                </tr>
-                <tr>
-                  NETHERLAND
-                </tr>
-                <tr>
-                  TEST SPEED
-                </tr>
-              </table>
-              <table>
-                <tr>
-                  AMS2
-                </tr>
-                <tr>
-                  NETHERLAND
-                </tr>
-                <tr>
-                  TEST SPEED
-                </tr>
-              </table>
-              <table>
-                <tr>
-                  AMS2
-                </tr>
-                <tr>
-                  NETHERLAND
-                </tr>
-                <tr>
-                  TEST SPEED
-                </tr>
-              </table>
-            </div>
+    <section class="blueback">
+      <div class="container">
+        <div class="row">
+<!-- Titolo ------------>
+          <div class="col-lg-12">
+            <h2 class="textcentro titolotab">
+              Service your customers
+              around the world from 12 regions.
+            </h2>
 
+          </div>
+<!-- Tabella lato sinistro  ------------>
+          <div class="col-lg-offset-2 col-lg-4">
+
+            <table class="textcentro">
+                <tr class="margintablelalal">
+                  <td class="ams">
+                    AMS2
+                  </td>
+                  <td class="netherland">
+                      Amsterdam, Netherland
+
+                  </td>
+                  <td class="testspeed">
+                    <a href="#">test speed></a>
+                  </td>
+                </tr>
+                <tr class="margintablelalal">
+                  <td class="ams">
+                    AMS3
+                  </td>
+                  <td class="netherland">
+                    Amsterdam, Netherland
+                  </td>
+                  <td class="testspeed">
+                    <a href="#">test speed></a>
+                  </td>
+                </tr>
+                <tr class="margintablelalal">
+                  <td class="ams">
+                    BLR1
+                  </td>
+                  <td class="netherland">
+                    Bangalore , India
+                  </td>
+                  <td class="testspeed">
+                    <a href="#">test speed></a>
+                  </td>
+                </tr>
+                <tr class="margintablelalal">
+                  <td class="ams">
+                    FRA1
+                  </td>
+                  <td class="netherland">
+                    NETHERLAND
+                  </td>
+                  <td class="testspeed">
+                    <a href="#">test speed></a>
+                  </td>
+                </tr>
+                <tr class="margintablelalal">
+                  <td class="ams">
+                    LON1
+                  </td>
+                  <td class="netherland">
+                    NETHERLAND
+                  </td>
+                  <td class="testspeed">
+                    <a href="#">test speed></a>
+                  </td>
+                </tr>
+                <tr class="margintablelalal">
+                  <td class="ams">
+                    NYC1
+                  </td>
+                  <td class="netherland">
+                    NETHERLAND
+                  </td>
+                  <td class="testspeed">
+                    <a href="#">test speed></a>
+                  </td>
+                </tr>
+
+              </table>
+
+          </div>
+          <div class="col-lg-4">
+            <table class="textcentro">
+                <tr class="margintablelalal">
+                  <td class="ams">
+                    NYC1
+                  </td>
+                  <td class="netherland">
+                    NETHERLAND
+                  </td>
+                  <td class="testspeed">
+                    <a href="#">test speed></a>
+                  </td>
+                </tr>
+                <tr class="margintablelalal">
+                  <td class="ams">
+                    AMS2
+                  </td>
+                  <td class="netherland">
+                    NETHERLAND
+                  </td>
+                  <td class="testspeed">
+                    <a href="#">test speed></a>
+                  </td>
+                </tr>
+                <tr class="margintablelalal">
+                  <td class="ams">
+                    AMS2
+                  </td>
+                  <td class="netherland">
+                    NETHERLAND
+                  </td>
+                  <td class="testspeed">
+                    <a href="#">test speed></a>
+                  </td>
+                </tr>
+                <tr class="margintablelalal">
+                  <td class="ams">
+                    AMS2
+                  </td>
+                  <td class="netherland">
+                    NETHERLAND
+                  </td>
+                  <td class="testspeed">
+                    <a href="#">test speed></a>
+                  </td>
+                </tr>
+                <tr class="margintablelalal">
+                  <td class="ams">
+                    AMS2
+                  </td>
+                  <td class="netherland">
+                    NETHERLAND
+                  </td>
+                  <td class="testspeed">
+                    <a href="#">test speed></a>
+                  </td>
+                </tr>
+                <tr class="margintablelalal">
+                  <td class="ams">
+                    AMS2
+                  </td>
+                  <td class="netherland">
+                    NETHERLAND
+                  </td>
+                  <td class="testspeed">
+                    <a href="#">test speed></a>
+                  </td>
+                </tr>
+
+              </table>
           </div>
 
         </div>
-      </section>
+
+      </div>
+    </section>
 
 
 <!-- DEVELOPMENT TEAMS LOVE DIGITALOCEAN--------------->
-      <section>
-        <div class="section">
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-12">
-                <div class="">
-                  <h3>
-                    Development teams love DigitalOcean
-                  </h3>
-                </div>
-              </div>
-              <div class="col-lg-12">
-                <img src="img/kubernetes.jpg" alt="">
-              </div>
-            </div>
-          </div>
-        </div>
-<!-- GET STARTED NOW.------------------------>
-      </section>
-       <div class="container">
-         <div class="row">
-           <div class="col-lg-12">
-             <h3>
-               GET STARTED NOW
-             </h3>
-             BUTTON create your account
-           </div>
-         </div>
-       </div>
-<!-- PARTE FINALE ------------->
-      <footer>
+    <section>
+      <div class="section backgrey">
         <div class="container">
           <div class="row">
-            <div class="col-lg-4">
-              logo e cazzatine varie
+            <div class="col-lg-12">
+              <div class="textcentro">
+                <h3 class="rockertitle">
+                  <strong>
+                    Development teams love DigitalOcean
+                  </strong>
+                </h3>
+              </div>
             </div>
-            <div class="col-lg-2">
-              lista
+            <div class="textcentro col-lg-12">
+              <img src="img/rockerbox.png" alt="">
             </div>
-            <div class="col-lg-2">
-              lista
-            </div>
-            <div class="col-lg-2">
-              lista
-            </div>
-            <div class="col-lg-2">
-              lista
-            </div>
-
+          </div>
+        </div>
+      </div>
+<!-- GET STARTED NOW.------------------------>
+    </section>
+     <div class="container">
+       <div class="row">
+         <div class="col-lg-12">
+           <h3 class="textcentro ">
+             GET STARTED NOW
+           </h3>
+           BUTTON create your account
+         </div>
+       </div>
+     </div>
+<!-- PARTE FINALE ------------->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            logo e cazzatine varie
+          </div>
+          <div class="col-lg-2">
+            lista
+          </div>
+          <div class="col-lg-2">
+            lista
+          </div>
+          <div class="col-lg-2">
+            lista
+          </div>
+          <div class="col-lg-2">
+            lista
           </div>
 
         </div>
+
+      </div>
 
 
 

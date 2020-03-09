@@ -1,8 +1,8 @@
 *{
-  padding: 0;
-  margin: 0;
+  /* padding: 0;
+  margin: 0; */
   box-sizing: border-box;
-  font-family: 'sailec';
+  font-family:'Oxanium';
 }
 
 .container::after {
@@ -38,10 +38,11 @@ padding-left: 20px;
 .logodigital{
 width: 200px;
 float: left;
-padding-top: 10px;
+padding-top: 20px;
 padding-bottom: 10px;
-
+padding-left: 100px;
 }
+
 /* Item centrali product */
 .padelnav{
 padding-left:50px;
@@ -53,49 +54,239 @@ padding-right: 10px;
   padding-bottom: 20px;
 }
 
+.signup{
+  padding: 10px;
+  border: 1px solid #3333ff;
+  border-radius: 10%;
+  color: #3333ff;
+}
+.topspazio a{
+  padding-left: 5px;
+}
+
 /* --NAVBAR fine------> */
 
 /* JUMBOTRON */
-/* Sinistra ( titolo + paragrafo) */
-
+/* JUMBOTRON REGOLE GENERALE CONTAINER */
+.latspac{
+  padding-left:100px;
+  padding-right: 100px;
+}
+/* Sfono jumb + distanze */
 #jumbo{
   background-image: url("img/bg-home.jpg");
-  /* height: 500px; */
   margin-top: 50px;
 }
 
-.riqformtop{
-  border: 2px solid black;
+/* Regole Titolo */
+.sizetitjum{
+  font-size: 40px;
+  margin-top: 100px;
+  color: white;
+}
+
+/* Regole paragrafo */
+.piripì{
+  font-size: 15px;
+  color:#999999;
+}
+
+/* Regole form */
+/* Distanze + border */
+#formrules{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 1%;
+}
+/* titolo 1 form */
+#titoloform{
+  font-size: 25px;
+  text-align: center;
+  line-height: 0.2;
+  padding-top:20px;
+}
+/* titolo 2 form */
+#titoloform2{
+  font-size: 25px;
+  text-align: center;
+  color: #3333ff;
+}
+.larghspazi{
+  max-width: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.larghspazidue{
+  width: 400px;
+  
 }
 
 
 /* SEZIONE TITOLO + IMM + LINK */
  .backgrey{
    background-color: #f3f5f9;
+   padding: 64px 0;
  }
  /* Img + testo centrati */
  .textcentro{
    text-align: center;
  }
- /* img's size */
- .imgsize{
-  max-width: 100%;
-  padding-left: 2%;
+
+
+ /* titolo brand */
+ .titbrand{
+   font-size: 14px;
+   padding-bottom: 20px;
+
  }
-/* DEPLOY AND SCALE SEAMLESSLY */
- /* Lista */
- .lista{
-   list-style-type: none;
-   vertical-align: center;
-   padding-left: 10px;
+ /* Regole Brand  */
+ .sottblu{
+  max-width: 90%;
  }
-/* Barretta kinder sinistra */
- .bordolista{
-   border-left: 2px solid black;
+ .fox{
+  padding-top:15px;
  }
+ .slacklogo{
+   padding-top: 5px;
+ }
+ .splunklogo{
+   padding-top: 20px;
+ }
+ /* Link */
+.customerslink{
+  margin-top: 30px;
+  font-size: 12px;
+}
+
+
+/* DEPLOY AND SCALE SEAMLESSY */
 
 /* SERVICE YOUR CUSTOMERS */
 /* Colore sfondo section */
 .blueback{
-  background-color: #6666ff;
+  background-color: #000099;
+  padding: 60px 0;
+}
+
+
+/* DEPLOY AND SCALE SEAMLESSLY */
+/* deloy paragrafo */
+.deloypar{
+  padding-bottom: 40px;
+font-size: 40px;
+}
+.titolodeloy{
+  font-size: 25px;
+  padding-top: 60px;
+}
+.sotttit{
+  font-size: 17px;
+  color: #8c8c8c
+}
+/* Lista */
+.lista{
+ list-style-type: none;
+ vertical-align: center;
+ padding-left: 10px;
+}
+/* Barretta kinder sinistra */
+.bordolista{
+ border-left: 2px solid #8c8c8c;
+}
+
+.bordolista ul li{
+  padding-bottom: 5px;
+  font-size: 15px;
+  color: #8c8c8c;
+}
+
+.paragrafomini{
+  font-size: 12px;
+  color: #8c8c8c
+}
+
+.parminuno{
+  margin-top:22px;
+}
+.parminquattro{
+  margin-top: 35px;
+}
+
+
+
+/* DESIGNER SECTION */
+/* Spazio sotto sottotitolo h6 */
+.spaziosott{
+  padding-bottom: 50px;
+}
+/* istruzioni img */
+.sottoimgdesign {
+  padding-top: 20px;
+}
+
+/* THE FUTURE YOUR BUSINESS NEEDS */
+.thefuture{
+  padding-top: 60px;
+  font-size: 25px;
+  padding-bottom: 30px;
+}
+
+/* img + titolo + paragrafo size testo paragagrafo*/
+.titoloimgfuture{
+  font-size:25px;
+}
+.support{
+  font-size: 12px;
+}
+
+.dueditasotto{
+  margin-bottom: 60px;
+}
+
+
+/* TABELLA PAESI ---------------------------------------*/
+.titolotab{
+  font-size: 25px;
+  color: white;
+}
+
+.margintablelalal{
+  border-bottom: 2px solid white;
+}
+
+.ams{
+ width: 5%;
+ font-size: 10px;
+ padding-top: 7px;
+ padding-bottom:5px;
+ color: white;
+
+
+}
+
+.netherland{
+  width: 15%;
+  height: 20px;
+  font-size: 10px;
+  padding-bottom: 2px;
+  color: #666666;
+  font-weight: bold;
+  text-align:left;
+  padding-left: 10px;
+}
+
+.testspeed{
+  width: 5%;
+  font-size: 10px;
+  padding-bottom: 2px;
+  color: white;
+
+}
+
+.spaziocontgiu{
+  padding-bottom: 30px;
+}
+.rockertitle{
+  font-size: 25px;
+  padding-bottom: 25px;
 }
